@@ -1,1 +1,1 @@
-import * as bs from "bootstrap";
+import { Collapse,Dropdown,Button } from "bootstrap";
