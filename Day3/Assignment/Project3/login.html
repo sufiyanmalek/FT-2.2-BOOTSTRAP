@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vite App</title>
+    </head>
+    <body>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">Blog</a>
+            </div>
+        </nav>
+
+        <!-- HEADER -->
+        <header id="main-header" class="py-2 bg-primary text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1><em class="fa fa-user"></em>Blog Admin</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Actions -->
+        <section id="action" class="py-4 mb-4 bg-light">
+            <div class="container">
+                <div class="row"></div>
+            </div>
+        </section>
+
+        <!-- LOGIN -->
+        <section id="login">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mx-auto">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Account Login</h4>
+                            </div>
+                            <div class="card-body">
+                                <form action="index.html">
+                                    <div class="mb-3">
+                                        <label for="email">Email</label>
+                                        <input type="text" class="form-control" />
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="password">Password</label>
+                                        <input type="password" class="form-control" />
+                                    </div>
+                                    <div class="d-grid">
+                                        <input type="submit" class="btn btn-primary" value="Login" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+
+        <footer id="main-footer" class="bg-dark text-white mt-5 p-5 fixed-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="lead text-center">Copyright &copy; 2017 Sufiyan Malek</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            CKEDITOR.replace("editor1");
+        </script>
+        <script type="module" src="/main.js"></script>
+    </body>
+</html>
